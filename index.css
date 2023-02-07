@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-image: url("bulls_2011.jpg");
+    background-size: cover;
+    background-position: center;
+    /* width: 90vw; */
+}
+
+h3 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10 auto;
+    background: #1B244A;
+    max-width: 575px;
+    max-height: 385px;
+    border: 4px solid red;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 50%
+}
+
+.points-on-board {
+    background-color: #080001;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    margin-bottom: 15px;
+
+}
+
+.points-on-board p {
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.points-btn-div {
+    height: 45px;
+    width: 155px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.points-btn-div button {
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    margin-bottom: 10px;
+}
+
+#new-game-div>button {
+    background-color: #9AABD8;
+}
+
+
+#new-game-btn {
+    background-color: #9AABD8;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+#timer-container {
+    font-size: 2.5rem;
+    font-family: monospace;
+    margin: 0;
+    list-style: none;
+    color: white;
+    flex: 1 0 100%;
+    text-align: center;
+
+}

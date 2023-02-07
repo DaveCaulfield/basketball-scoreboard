@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <p id="timer-container">
+            <!-- <span id="minutes">00</span>:<span id="seconds">00</span> -->
+        </p>
+
+
+        <div class="score-board">
+            <h3 id="home">HOME</h3>
+            <div class="points-on-board">
+                <p id="home-points-parag">0</p>
+            </div>
+
+            <div class="points-btn-div">
+                <button id="1plus-home-btn" onclick="incrementHome1()">+1</button>
+                <button id="2plus-home-btn" onclick="incrementHome2()">+2</button>
+                <button id="3plus-home-btn" onclick="incrementHome3()">+3</button>
+            </div>
+
+        </div>
+
+        <div class="score-board">
+            <h3 id="guest">GUEST</h3>
+            <div class="points-on-board">
+                <p id="guest-points-parag">0</p>
+            </div>
+
+            <div class="points-btn-div">
+                <button id="1plus-guest-btn" onclick="incrementGuest1()">+1</button>
+                <button id="2plus-guest-btn" onclick="incrementGuest2()">+2</button>
+                <button id="3plus-guest-btn" onclick="incrementGuest3()">+3</button>
+            </div>
+
+        </div>
+
+        <div id="new-game-div">
+            <button id="1minus-home-btn" onclick="decrementHome1()">-1</button>
+            <button id="2minus-home-btn" onclick="decrementHome2()">-2</button>
+            <button id="3minus-home-btn" onclick="decrementHome3()">-3</button>
+
+            <button id="new-game-btn" onclick="resetScoreboard()">New Game</button>
+
+            <button id="1minus-guest-btn" onclick="decrementGuest1()">-1</button>
+            <button id="2minus-guest-btn" onclick="decrementGuest2()">-2</button>
+            <button id="3minus-guest-btn" onclick="decrementGuest3()">-3</button>
+        </div>
+
+    </div> <!-- container-end -->
+    <script src="index.js"></script>
+</body>
+
+</html>
